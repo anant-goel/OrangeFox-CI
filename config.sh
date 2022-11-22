@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_12.0"
+export FOX_BRANCH="fox_12.1"
 export DT_LINK="https://github.com/SharmagRit/twrp-android_device_xiaomi_veux.git -b ofox"
 
 export DEVICE="veux"
@@ -11,7 +11,7 @@ export OEM="xiaomi"
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
-export TARGET="recoveryimage"
+export TARGET="bootimage"
 
 export OUTPUT="OrangeFox*.zip"
 
