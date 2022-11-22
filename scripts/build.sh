@@ -52,6 +52,7 @@ echo " "
 
 # Prepare the Build Environment
 source build/envsetup.sh
+export TARGET_SUPPORTS_64_BIT_APPS=false
 
 # Run the Extra Command
 $EXTRA_CMD
