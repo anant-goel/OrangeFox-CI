@@ -17,6 +17,8 @@ telegram_message() {
 # Clone the Sync Repo
 git clone $FOX_SYNC
 cd sync
+whereis python3
+apt-get install python3
 
 # Setup Branch names
 if [ "$FOX_BRANCH" = "fox_12.0" ]; then
